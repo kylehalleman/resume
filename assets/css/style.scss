@@ -247,6 +247,12 @@ div + div {
   }
 }
 
+footer {
+  margin: 1em 0;
+  padding: 1em;
+  text-align: center;
+}
+
 @media screen and (min-width: 670px) {
   .experience {
     display: grid;
