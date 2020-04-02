@@ -1,2 +1,5 @@
-# resume
-My resume.
+---
+title: Intro
+---
+
+[View my resume](resume.md)
