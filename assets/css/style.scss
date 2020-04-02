@@ -89,13 +89,6 @@ h6 {
   margin: 0.75em 0 0.5em;
 }
 
-p {
-  margin: 0 0 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 p + p {
   margin: 1em 0 0;
   margin-block-start: 1em;
@@ -138,6 +131,20 @@ ul {
  * straight HTML from Markdown...
  */
 
+.site-nav {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: var(--container-size);
+  margin: 1em auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.site-nav__item {
+  margin: 0 1em;
+}
+
 // my name
 h1 {
   text-align: right;
@@ -168,15 +175,20 @@ h3 {
 }
 
 // job title + years
-p {
-  padding-right: 0.5rem;
-  border-top: 0.125em solid;
-
-  em {
-    background-color: var(--base-color);
-    color: var(--base-bg);
-    padding: 0 0.5rem;
-    font-style: normal;
+.experience {
+  p {
+    padding-right: 0.5rem;
+    border-top: 0.125em solid;
+    margin: 0 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    em {
+      background-color: var(--base-color);
+      color: var(--base-bg);
+      padding: 0 0.5rem;
+      font-style: normal;
+    }
   }
 }
 
