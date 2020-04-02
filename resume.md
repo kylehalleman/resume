@@ -183,6 +183,6 @@ title: Resume
 
 ## Certifications
 
-* *IAAP Web Accessibility Specialist* **July 2019**
-* *IAAP Certified Professional in Accessibility Core Competencies* **November 2019**
-* *IAAP Certified Professional in Web Accessibility* **November 2019**
+* **IAAP Web Accessibility Specialist** July 2019
+* **IAAP Certified Professional in Accessibility Core Competencies** November 2019
+* **IAAP Certified Professional in Web Accessibility** November 2019
