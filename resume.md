@@ -17,14 +17,14 @@ title: Resume
 
 * Designed, championed, prototyped, and implemented a dynamic, responsive navigation menu across the product (using a variation of the Priority+ pattern).
 * Developed a feature allowing faculty to quickly get information from their CV into our system by marking up a parsed representation of their document.
-* Promoted the use of TypeScript throughout our front-end applications to help write safer, less error-prone code.
-* Successfully advocated and led a transition from a front-end architecture using Backbone to React, while ensuring interoperability.
+* Promoted the use of **TypeScript** throughout our front-end applications to help write safer, less error-prone code.
+* Successfully advocated and led a transition from a front-end architecture using **Backbone to React**, while ensuring interoperability.
 * Designed and developed the front end for a new in-product notifications and messaging system.
-* Created and maintained a CLI app and supporting scripts used to quickly create and develop new projects leveraging our company’s toolchain.
-* Created reusable, responsive components in a living style guide for both Backbone and React frameworks.
+* Created and maintained a **CLI app** and supporting scripts used to quickly create and develop new projects leveraging our company’s toolchain.
+* Created **reusable, responsive components** in a living style guide for both Backbone and React frameworks.
 * Successfully lobbied for and led a shift to responsive design throughout the product.
 * Maintained and improved legacy front-end systems.
-* Created the company’s open-source policy and helped launch its first open-source project.
+* Created the company’s **open-source policy** and helped launch its first open-source project.
 
 </div>
 <div markdown="1">
@@ -34,7 +34,8 @@ title: Resume
 * HTML5
 * CSS3
 * Less
-* JavaScript (ES2015)
+* Sass
+* JavaScript (ES2015+)
 * TypeScript
 * jQuery
 * Grunt
@@ -51,6 +52,7 @@ title: Resume
 * responsive design
 * atomic design
 * Figma
+* Sketch
 * Git
 
 </div>
@@ -65,10 +67,10 @@ title: Resume
 
 #### Responsibilities
 
-* Led research, design, and development of a universal React-based responsive web app that acts as an encyclopedia of model information, with fast live search and dynamic comparisons.
-* Created live social media display board showcasing latest tweets and Instagram posts on the Livewire tour. Made an adapted version for Harley’s annual dealer meeting that displayed on a 65'-wide screen.
+* Led research, design, and development of a **universal React-based responsive web app** that acts as an encyclopedia of model information, with fast live search and dynamic comparisons.
+* Created live **social media display board** showcasing latest tweets and Instagram posts on the Livewire tour. Made an adapted version for Harley’s annual dealer meeting that **displayed on a 65'-wide screen**.
 * Designed and developed department portfolio site.
-* Designed and developed podcast web app using vanilla JavaScript, featuring offline storage and variable playback rate.
+* Designed and developed **podcast web app using vanilla JavaScript**, featuring **offline storage** and variable playback rate.
 * Developed HTML5 SCORM-compliant e-learning course template and made many courses with it.
 * Developed responsive front end for company-wide leadership development website.
 * Advised offshore team and did code reviews for new employee intranet.
@@ -170,6 +172,8 @@ title: Resume
 </div>
 </section>
 
+<section markdown="1">
+
 ## Education
 
 * **Milwaukee Area Technical College** 2012
@@ -181,8 +185,13 @@ title: Resume
 * **Columbia College Chicago** 2006–2007
   * Studied Film and Video
 
+</section>
+<section markdown="1">
+
 ## Certifications
 
 * **IAAP Web Accessibility Specialist** July 2019
 * **IAAP Certified Professional in Accessibility Core Competencies** November 2019
 * **IAAP Certified Professional in Web Accessibility** November 2019
+
+</section>
