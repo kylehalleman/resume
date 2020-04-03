@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
 
-  <body>
+  <body class="layout--{{ page.layout }}">
     <header>
       <nav aria-label="Main site navigation">
         <ul class="site-nav">
@@ -26,7 +26,14 @@
       {{ content }}
     </main>
     <footer>
-      <a href="https://github.com/kylehalleman/resume">View the source</a>
+      <ul class="social">
+        <li class="social__item">
+          <a href="https://github.com/kylehalleman/resume">View the source</a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.linkedin.com/in/kylehalleman/">LinkedIn</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

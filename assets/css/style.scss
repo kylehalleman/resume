@@ -60,6 +60,10 @@ body {
   background-color: var(--base-bg);
   color: hsl(0, 0%, 20%);
   color: var(--base-color);
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a {
@@ -75,9 +79,14 @@ a {
 }
 
 main {
+  flex: 1 0 auto;
   margin: 0 auto;
   padding: 0 1em;
   max-width: var(--container-size);
+
+  .layout--home & {
+    max-width: 40em;
+  }
 }
 
 h1,
@@ -253,6 +262,18 @@ footer {
   text-align: center;
 }
 
+.social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  margin: 0 1em;
+}
+
 @media screen and (min-width: 670px) {
   .experience {
     display: grid;
@@ -283,7 +304,8 @@ footer {
     font-size: 10pt;
     background-color: transparent;
   }
-  header {
+  header,
+  footer {
     display: none;
   }
   h1 {
