@@ -275,9 +275,11 @@ footer {
 }
 
 @media (min-width: 42em) {
-  main {
-    display: flex;
-    flex-wrap: wrap;
+  .layout--page {
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 
   h1 {
