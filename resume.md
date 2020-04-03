@@ -4,6 +4,8 @@ title: Resume
 
 # Kyle Halleman
 
+The web is what I think about. I believe it should be available to everyone, so I focus on **accessibility**, **responsive design**, and **performance**. I love writing **React** with **TypeScript**—it maps so well to my mental model of UI development. I am passionate about all facets of front-end development, but I particularly focus on the **intersection between UX and the front end**.
+
 ## Work experience
 
 <section markdown="1" class="experience">
