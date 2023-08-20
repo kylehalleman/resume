@@ -10,6 +10,48 @@ The web is what I think about. I believe it should be available to everyone, so 
 
 <section markdown="1" class="experience">
 
+### Northwestern Mutual *(Milwaukee, WI)*
+*Senior software engineer* June 2020–Present
+
+<div markdown="1">
+
+#### Responsibilities
+
+* Maintained and improved a legacy notifications dashboard for financial representatives to easily see in near real time when clients accomplished tasks and goals.
+* Created and maintained UIs allowing users to update their email, web, and phone preferences, leveraging a modernized GraphQL service our team built.
+* Created and maintained a new fully auditable web interface for financial representatives to securely instant message with clients, using smart polling strategies to avoid overloading our API.
+* Contributed bug fixes, feature requests, and completely new components to the company’s React and vanilla JS design system, working closely with the core team to ensure success.
+* Intimately collaborated with the design team to prototype, implement, and iterate on new features for our secure chat product, sharing insights on feasibility and accessibility to end up with the strongest product possible for our users. 
+* Created and maintained an internal NPM package to streamline setup of new JavaScript and TypeScript projects and ensure consistency of testing, linting, formatting, and configurations.
+* Promoted stronger accessibility adherence with product, engineering, and design teams
+* Held a twice monthly meeting for my team teaching front-end skills to help improve the skillset of the mostly back-end engineers on the team.
+* Shared new techniques and experiences with the company via internal blog posts and talks, including my learnings from implementing Next.js in our company’s infrastructure.
+* Created our team’s documentation site to openly share our team’s processes and thoughts with the entire company and provide internal-facing documentation with teams implementing our platform.
+
+</div>
+<div markdown="1">
+
+#### Skills + Technologies
+
+* HTML5
+* CSS3 + Sass
+* JavaScript + TypeScript
+* Node.js + Express
+* React + Redux + Next.js
+* Storybook
+* Webpack
+* accessible design + development
+* responsive design
+* atomic design
+* Figma
+* Git
+
+</div>
+</section>
+
+
+<section markdown="1" class="experience">
+
 ### Watermark Insights *(Milwaukee, WI)*
 *Senior front-end engineer* July 2016–Present
 
@@ -144,47 +186,17 @@ The web is what I think about. I believe it should be available to everyone, so 
 </div>
 </section>
 
-<section markdown="1" class="experience">
-
-### Flex Pre-Press *(Franklin, WI)*
-*Production operator, Quality Control* January 2012–April 2013
-
-<div markdown="1">
-
-#### Responsibilities
-
-* Did quality control, manually and digitally checking production files against original art and printer specifications.
-* Created realistic packaging prototypes.
-* Recreated package art and layouts from printed samples.
-* Created color-accurate contract proofs with GMG software.
-* Did art setup and color separations for flexographic printing plates.
-* Created and maintained internal projects including promotional materials and internal forms.
-
-</div>
-<div markdown="1">
-
-#### Skills + Technologies
-
-* Adobe Creative Suite
-* Esko Software
-* FileMaker Pro
-* GMG contract proofing
-* Roland VersaWorks prototyping
-
-</div>
-</section>
-
 <section markdown="1">
 
 ## Education
 
-* **Milwaukee Area Technical College** 2012
+* **Milwaukee Area Technical College**
   * Studied Graphic Design
-* **University of Wisconsin—Madison** 2007–2010
+* **University of Wisconsin—Madison**
   * B.A. Spanish, International Studies
-* **University of Alcalá** 2008–2009
+* **University of Alcalá**
   * Two-semester study abroad
-* **Columbia College Chicago** 2006–2007
+* **Columbia College Chicago**
   * Studied Film and Video
 
 </section>
@@ -192,8 +204,8 @@ The web is what I think about. I believe it should be available to everyone, so 
 
 ## Certifications
 
-* **IAAP Web Accessibility Specialist** July 2019
-* **IAAP Certified Professional in Accessibility Core Competencies** November 2019
-* **IAAP Certified Professional in Web Accessibility** November 2019
+* **IAAP Web Accessibility Specialist** July 2019–December 2022
+* **IAAP Certified Professional in Accessibility Core Competencies** November 2019–December 2022
+* **IAAP Certified Professional in Web Accessibility** November 2019–December 2022
 
 </section>
