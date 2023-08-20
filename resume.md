@@ -53,7 +53,7 @@ The web is what I think about. I believe it should be available to everyone, so 
 <section markdown="1" class="experience">
 
 ### Watermark Insights *(Milwaukee, WI)*
-*Senior front-end engineer* July 2016–Present
+*Senior front-end engineer* July 2016–June 2020
 
 <div markdown="1">
 
