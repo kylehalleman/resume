@@ -4,7 +4,7 @@ title: Resume
 
 # Kyle Halleman
 
-The web is what I think about. I believe it should be available to everyone, so I focus on **accessibility**, **responsive design**, and **performance**. I love writing **React** with **TypeScript**—it maps so well to my mental model of UI development. I am passionate about all facets of front-end development, but I particularly focus on the **intersection between UX and the front end**.
+The web is what I think about. I believe it should be available to everyone, so I focus on **accessibility**, **responsive design**, and **performance**. I love writing **React**, but lately I’ve been thinking about how we can move beyond React to work with web standards to make a simpler, more robust web experience. I am passionate about all facets of front-end development, but I particularly focus on the **intersection between UX and the front end**.
 
 ## Work experience
 
@@ -17,16 +17,17 @@ The web is what I think about. I believe it should be available to everyone, so 
 
 #### Responsibilities
 
-* Maintained and improved a legacy notifications dashboard for financial representatives to easily see in near real time when clients accomplished tasks and goals.
-* Created and maintained UIs allowing users to update their email, web, and phone preferences, leveraging a modernized GraphQL service our team built.
-* Created and maintained a new fully auditable web interface for financial representatives to securely instant message with clients, using smart polling strategies to avoid overloading our API.
-* Contributed bug fixes, feature requests, and completely new components to the company’s React and vanilla JS design system, working closely with the core team to ensure success.
-* Intimately collaborated with the design team to prototype, implement, and iterate on new features for our secure chat product, sharing insights on feasibility and accessibility to end up with the strongest product possible for our users. 
-* Created and maintained an internal NPM package to streamline setup of new JavaScript and TypeScript projects and ensure consistency of testing, linting, formatting, and configurations.
-* Promoted stronger accessibility adherence with product, engineering, and design teams
-* Held a twice monthly meeting for my team teaching front-end skills to help improve the skillset of the mostly back-end engineers on the team.
-* Shared new techniques and experiences with the company via internal blog posts and talks, including my learnings from implementing Next.js in our company’s infrastructure.
-* Created our team’s documentation site to openly share our team’s processes and thoughts with the entire company and provide internal-facing documentation with teams implementing our platform.
+* Created and maintained a fully auditable web interface for financial representatives to securely instant message with clients, using smart polling strategies with **React Query** to avoid overloading our API.
+* Contributed bug fixes, feature requests, and completely new components to the company’s **Sass**- and **React**-based **design system**, working closely with the core team to ensure success.
+* Intimately collaborated with the design team to prototype, implement, and iterate on new features for our secure chat product, sharing insights on feasibility and accessibility to end up with the strongest product possible for our users.
+* Created and maintained UIs allowing users to update their email, web, and phone preferences, using a modernized **GraphQL** service our team built.
+* Maintained and improved a **Redux**-based legacy notifications dashboard for financial representatives to easily see in near-real time when clients accomplished tasks and goals.
+* Used **atomic design** principles to create shared components and templates for email and web notifications, showcasing them on internal **Storybook** sites for our publishers.
+* Created and maintained an internal NPM package to streamline setup of new **JavaScript** and **TypeScript** projects and ensure consistency of testing, linting, formatting, and configurations.
+* Promoted **stronger accessibility** adherence with product, engineering, and design teams.
+* Held a twice-monthly meeting for my team teaching front-end skills to help improve the skillset of the mostly back-end engineers.
+* Shared new techniques and experiences with the company via internal blog posts and talks, including lessons learned from implementing **Next.js** in our company’s infrastructure.
+* Created our team’s documentation site to openly share our processes and thoughts with the entire company and provide internal-facing documentation with teams implementing our platform.
 
 </div>
 <div markdown="1">
@@ -115,7 +116,7 @@ The web is what I think about. I believe it should be available to everyone, so 
 * Created live **social media display board** showcasing latest tweets and Instagram posts on the Livewire tour. Made an adapted version for Harley’s annual dealer meeting that **displayed on a 65'-wide screen**.
 * Designed and developed department portfolio site.
 * Designed and developed **podcast web app using vanilla JavaScript**, featuring **offline storage** and variable playback rate.
-* Developed HTML5 SCORM-compliant e-learning course template and made many courses with it.
+* Developed **HTML5** SCORM-compliant e-learning course template and made many courses with it.
 * Developed responsive front end for company-wide leadership development website.
 * Advised offshore team and did code reviews for new employee intranet.
 
