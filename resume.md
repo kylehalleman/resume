@@ -14,16 +14,17 @@ The web is what I think about. I believe it should be available to everyone, so 
 ### Northwestern Mutual *(Milwaukee, WI)*
 #### Lead software engineer *August 2024–Present*
 ##### Responsibilities
-* Created a complementary component library to the enterprise design system—tailored for the client website experience—gaining adoption in [X%/number] of apps within the first year, featuring [X] components (and growing).
+* Created a complementary component library to the enterprise design system—tailored for the client website experience—gaining adoption in 33 apps (37%) within the first year, featuring 29 components (and growing).
 * Provided **hands-on support for client website teams** to identify and fix bugs, adopt new libraries, and migrate to new ways of creating apps.
 * Introduced a **new layout system** that focuses on primitive utilities that are **responsive to their content and containers** without using media nor container queries.
 * **Embedded on the design system team** for a quarter to help lead the from-the-ground-up rewrite, with emphasis on the build system, styling architecture, component APIs, layout system, design tokens, iconography, and typography.
-* Held interactive feedback sessions with teams across the enterprise to promote and share insights into the new version of the design sytem
-* **Worked extensively with the design system team** on improving the legacy version of the system, contributing [x] merge requests, touching [x] components
+* Held interactive feedback sessions with teams across the enterprise to promote and share insights into the new version of the design system
+* **Worked extensively with the design system team** on improving the legacy version of the system, contributing 57 merge requests.
 * Paired with engineers **and designers** across the client website on a regular basis to help level up the skillsets of more junior engineers and help **grow the relationship with the design organization** and reduce feedback loops.
 * Worked with design and product on a site-wide **design consistency effort** to create a more cohesive user experience for the client website and mobile platforms.
-* Promoted **a lightweight and flexible CSS strategy** for both the client website and the enterprise design system, r**educing our dependency on third-party tools**.
-* Facilitated a fortnightly department-wide lunch and learn series that helped break down silos between teams and build a sense of community. I personally gave [x] talks in this series.
+* Promoted **a lightweight and flexible CSS strategy** for both the client website and the enterprise design system, **reducing our dependency on third-party tools**.
+* Facilitated a fortnightly department-wide lunch and learn series that helped break down silos between teams and build a sense of community. I personally gave 7 talks in this series.
+* Ran a one-day workshop for 100+ back-end engineers in another department exploring the current state of front-end development at Northwestern Mutual and beyond.
 * Joined the “accessibility ambassador” program and **became an accessibility specialist**, conducting audits for new features and helping create an accessibility practice for the client website.
 * **Mentored two junior engineers**, both of whom I continue to mentor after the 6-month program ended, helping one engineer through an internal interview and promotion process.
 

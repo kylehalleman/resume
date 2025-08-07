@@ -167,6 +167,11 @@ footer {
   margin: 0 1em;
 }
 
+.signature {
+  max-inline-size: 20rem;
+  fill: var(--base-color);
+}
+
 @media print {
   main {
     max-width: 7in;
