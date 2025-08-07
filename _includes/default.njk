@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      {% include "css/style.css" %}
+    </style>
+  <style>{% getBundle "css" %}</style>
+</head>
+
+<body class="layout">
+  <header>
+  <nav aria-label="Top level navigation menu">
+          <ul role="list" class="site-nav">
+            {%- for entry in collections.all | eleventyNavigation %}
+            <li class="site-nav__item">
+              <a href="{{ entry.url }}" class="text-trim"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+            </li>
+            {%- endfor %}
+          </ul>
+        </nav>
+    {# <nav aria-label="Main site navigation">
+      <ul class="site-nav">
+        {% sorted_pages = site.pages | sort : "order" %}
+        {% for item in sorted_pages %}
+        {% if item.title %}
+        <li class="site-nav__item">
+          <a href=".{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </nav> #}
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer>
+    <ul class="social">
+      <li class="social__item">
+        <a href="https://github.com/kylehalleman/resume">View the source</a>
+      </li>
+      <li class="social__item">
+        <a href="https://www.linkedin.com/in/kylehalleman/">LinkedIn</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
