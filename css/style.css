@@ -14,17 +14,36 @@
   --container-size: 60ch;
   --base-color: hsl(0, 0%, 20%);
   --base-bg: hsl(0, 0%, 96%);
+  --base-bg--transparent: hsla(0, 0%, 20%, 0.325);
   --base-color--transparent: hsla(0, 0%, 20%, 0.375);
   --base-color--very-transparent: hsla(0, 0%, 20%, 0.0375);
   --base-link-color: #4a69bd;
   --base-link-visited: rebeccapurple;
   --base-link-active: hsl(344, 79%, 40%);
+
+    /* Step -2: 10.24px → 13.44px */
+  --font-step--2: clamp(0.64rem, 0.5704rem + 0.3478vw, 0.84rem);
+  /* Step -1: 12.8px → 16.8px */
+  --font-step--1: clamp(0.8rem, 0.713rem + 0.4348vw, 1.05rem);
+  /* Step 0: 16px → 21px */
+  --font-step-0: clamp(1rem, 0.8913rem + 0.5435vw, 1.3125rem);
+  /* Step 1: 20px → 26.25px */
+  --font-step-1: clamp(1.25rem, 1.1141rem + 0.6793vw, 1.6406rem);
+  /* Step 2: 25px → 32.8125px */
+  --font-step-2: clamp(1.5625rem, 1.3927rem + 0.8492vw, 2.0508rem);
+  /* Step 3: 31.25px → 41.0156px */
+  --font-step-3: clamp(1.9531rem, 1.7408rem + 1.0615vw, 2.5635rem);
+  /* Step 4: 39.0625px → 51.2695px */
+  --font-step-4: clamp(2.4414rem, 2.176rem + 1.3269vw, 3.2043rem);
+  /* Step 5: 48.8281px → 64.0869px */
+  --font-step-5: clamp(3.0518rem, 2.72rem + 1.6586vw, 4.0054rem);
 }
 
 @media (prefers-color-scheme: dark), (prefers-dark-interface) {
   :root {
     --base-color: hsl(0, 0%, 96%);
     --base-bg: hsl(0, 0%, 20%);
+    --base-bg--transparent: hsla(0, 0%, 96%, 0.325);
     --base-color--transparent: hsla(0, 0%, 96%, 0.375);
     --base-color--very-transparent: hsla(0, 0%, 96%, 0.0375);
     --base-link-color: #25ccf7;
@@ -52,7 +71,9 @@ body {
     "Helvetica Neue", sans-serif;
   /* https://css-tricks.com/fun-viewport-units/ */
   /*@todo*/
-  font-size: calc(16px + 0.1vw);
+  /*font-size: calc(16px + 0.1vw);*/
+
+  font-size: var(--font-step-0);
   margin: 0;
   line-height: 1.4;
   background-color: hsl(0, 0%, 94%);
@@ -63,6 +84,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+    background-image: radial-gradient(
+    circle at 1px 1px,
+    var(--base-bg--transparent) 1px,
+    transparent 0
+  );
+  background-size: 32px 32px;
 }
 
 a {
@@ -84,8 +112,22 @@ main {
   max-width: var(--container-size);
 
   > * + * {
-    margin-block-start: 1em;
+    margin-block-start: var(--flow-space, 1em);
   }
+}
+
+[id^="responsibilities"] {
+  position: absolute;
+
+  inline-size: 1px;
+  block-size: 1px;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
 }
 
 
@@ -132,22 +174,38 @@ main {
 /* my name*/
 h1 {
   text-align: end;
+  font-size: var(--font-step-4);
 }
 
 /* sections (work experience, education, certifications)*/
 h2 {
+  font-size: var(--font-step-3);
+  border-block-start: 4px solid;
+  font-weight: 100;
+  letter-spacing: 0.0625ch;
+  text-transform: uppercase;
 }
 
 /* company */
 h3 {
+  --flow-space: 3rem;
+  font-size: var(--font-step-2);
+  font-weight: 200;
   em {
     font-size: 75%;
     font-style: normal;
   }
 }
 
-h4 {display: flex;
-  justify-content: space-between;}
+h4 {
+  font-size: var(--font-step-1);
+  display: flex;
+  justify-content: space-between;
+border-block-end: 2px solid;}
+
+h5 {
+  font-size: var(--font-step-0);
+}
 
 footer {
   margin: 1em 0;
@@ -173,11 +231,13 @@ footer {
 }
 
 @media print {
+  :root {
+    font-size: 9pt;
+  }
   main {
     max-width: 7in;
   }
   body {
-    font-size: 10pt;
     background-color: transparent;
   }
   header,
