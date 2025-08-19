@@ -24,16 +24,15 @@ The web is what I think about. I believe it should be available to everyone, so 
 * Worked with design and product on a site-wide **design consistency effort** to create a more cohesive user experience for the client website and mobile platforms.
 * Promoted **a lightweight and flexible CSS strategy** for both the client website and the enterprise design system, **reducing our dependency on third-party tools**.
 * Facilitated a fortnightly department-wide lunch and learn series that helped break down silos between teams and build a sense of community. I personally gave 7 talks in this series.
-* Ran a one-day workshop for 100+ back-end engineers in another department exploring the current state of front-end development at Northwestern Mutual and beyond.
+* Ran a one-day **workshop for 100+ back-end engineers** in another department exploring the current state of front-end development at Northwestern Mutual and beyond.
 * Joined the “accessibility ambassador” program and **became an accessibility specialist**, conducting audits for new features and helping create an accessibility practice for the client website.
 * **Mentored two junior engineers**, both of whom I continue to mentor after the 6-month program ended, helping one engineer through an internal interview and promotion process.
 
 #### Senior software engineer *June 2020–July 2024*
 ##### Responsibilities
-* Created and maintained a fully auditable web interface for financial representatives to securely instant message with clients, using smart polling strategies with **React Query** to avoid overloading our API.
+* Created and maintained a fully auditable web interface for financial representatives to securely instant message with clients, using smart polling strategies with **React Query** to avoid overloading our **GraphQL API**.
 * Contributed bug fixes, feature requests, and completely new components to the company’s **Sass**- and **React**-based **design system**, working closely with the core team to ensure success.
 * Intimately collaborated with the design team to prototype, implement, and iterate on new features for our secure chat product, sharing insights on feasibility and accessibility to end up with the strongest product possible for our users.
-* Created and maintained UIs allowing users to update their email, web, and phone preferences, using a modernized **GraphQL** service our team built.
 * Maintained and improved a **Redux**-based legacy notifications dashboard for financial representatives to easily see in near-real time when clients accomplished tasks and goals.
 * Used **atomic design** principles to create shared components and templates for email and web notifications, showcasing them on internal **Storybook** sites for our publishers.
 * Created and maintained an internal NPM package to streamline setup of new **JavaScript** and **TypeScript** projects and ensure consistency of testing, linting, formatting, and configurations.
@@ -42,7 +41,7 @@ The web is what I think about. I believe it should be available to everyone, so 
 * Shared new techniques and experiences with the company via internal blog posts and talks, including lessons learned from implementing **Next.js** in our company’s infrastructure.
 * Created our team’s documentation site to openly share our processes and thoughts with the entire company and provide internal-facing documentation with teams implementing our platform.
 
-##### Skills + Technologies
+#### Skills + Technologies
 * HTML
 * CSS + Sass
 * JavaScript + TypeScript
