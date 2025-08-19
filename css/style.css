@@ -134,6 +134,8 @@ main {
 
 [id^="skills-technologies"] + ul {
 
+  font-size: var(--font-step--1);
+
     list-style: none;
     display: block;
     padding-left: 0;
